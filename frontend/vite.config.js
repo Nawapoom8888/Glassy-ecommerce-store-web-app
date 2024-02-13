@@ -5,7 +5,7 @@ import tailwindcss from "tailwindcss";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), autoprefixer(), tailwindcss()],
+  plugins: [react()],
   server: {
     proxy: {
       "/api": {
