@@ -172,7 +172,9 @@ function Product() {
                             value={rating}
                             className="ms-2 rounded-lg border-2 border-neutral-200"
                             onChange={(e) => setRating(e.target.value)}
+                            required
                           >
+                            <option value="">Select</option>
                             <option value="5">5 - Very Satisfied</option>
                             <option value="4">4 - Satisfied</option>
                             <option value="3">3 - Neutral</option>
