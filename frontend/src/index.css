@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 6rem;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.outlet-container {
+  min-height: calc(100vh - 64px);
+}
+
+.border-test {
+  /* border: 1px red solid; */
+}
